@@ -1,9 +1,9 @@
 #!/bin/bash
-echo "Enter a limit"
+echo "Enter a  lower limit"
+read i
+echo "Enter a  upper limit"
 read limit
 echo "prime numbers upto $limit are :"
-echo "1"
-i=2
 while [ $i -le $limit ]
 do
     flag=1
